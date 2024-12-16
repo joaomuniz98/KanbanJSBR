@@ -1,0 +1,55 @@
+<!-- examples/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanban Library Example</title>
+    <link rel="stylesheet" href="./src/kanban-style.css">
+</head>
+
+<body>
+    <div id="kanban"></div>
+    <script type="module">
+
+        import Kanban from './src/kanban.js';
+
+
+        const boardConfig = {
+            columns: [
+                {
+                    id: '1',
+                    title: 'To Do',
+                    custom: {
+                        classKanbanMainColumn: '',
+                        background: 'red',
+                    },
+                    cards: [{ text: 'Task 1' }, { text: 'Task 2' }]
+                },
+                {
+                    id: '2',
+                    title: 'In Progress',
+                    custom: {
+                        classKanbanMainColumn: 'sadasd',
+                        style: 'background: red;',
+                    },
+                    cards: []
+                },
+                {
+                    id: '3',
+                    title: 'Done',
+                    custom: {
+                        classKanbanMainColumn: 'sadasd saddasasdasd',
+                        background: 'red',
+                    },
+                    cards: [{ text: 'Task 3' }]
+                },
+            ],
+        };
+
+        new Kanban('kanban', boardConfig);
+    </script>
+</body>
+
+</html>
