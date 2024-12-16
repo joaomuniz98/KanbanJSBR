@@ -9,7 +9,7 @@ Bem-vindo ao **KanbanJSBR**, uma biblioteca simples e poderosa para criar quadro
    Certifique-se de adicionar os seguintes links ao `<head>` ou antes do fechamento da tag `<body>` do seu HTML:
 
    ```html
-   <link rel="stylesheet" href="LINK_CSS">
+   https://cdn.jsdelivr.net/gh/joaomuniz98/KanbanJSBR/src/kanban-style.css
    https://cdn.jsdelivr.net/gh/joaomuniz98/KanbanJSBR/src/kanban.js
 
 
