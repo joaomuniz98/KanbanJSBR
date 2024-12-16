@@ -10,7 +10,7 @@ Bem-vindo ao **KanbanJSBR**, uma biblioteca simples e poderosa para criar quadro
 
    ```html
    <link rel="stylesheet" href="LINK_CSS">
-   <script src="LINK_JS"></script>
+   https://cdn.jsdelivr.net/gh/joaomuniz98/KanbanJSBR/src/kanban.js
 
 
 2 . Crie uma div para renderizar o quadro kanban.
